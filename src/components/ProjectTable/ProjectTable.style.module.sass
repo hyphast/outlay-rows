@@ -1,0 +1,33 @@
+@import '../../variables'
+
+.root
+  background: #202124
+  .table
+    border-collapse: collapse
+    width: 100%
+
+    th
+      padding: 11px 11px
+      border-bottom: 1px solid $second-grey
+      font-size: 14px
+      line-height: 130%
+      letter-spacing: 0.1px
+      font-weight: 400
+      white-space: nowrap
+      color: #A1A1AA
+      text-align: left
+
+      &:nth-child(1)
+        width: 120px
+
+      &:nth-child(2)
+        width: 42%
+
+    td
+      border-bottom: 1px solid $second-grey
+      padding: 15px 0 15px 13px
+      font-weight: 400
+      font-size: 14px
+      line-height: 130%
+      letter-spacing: 0.1px
+      color: $white

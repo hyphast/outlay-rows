@@ -1,0 +1,43 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "airbnb-typescript",
+        "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "semi": "off",
+        "react/prop-types": "off",
+        "react/jsx-filename-extension": "off",
+        "react/function-component-definition": "off",
+        "react/jsx-props-no-spreading": "off",
+        "no-unused-vars": "warn",
+        "react/no-array-index-key": "off",
+        "import/prefer-default-export": "off",
+        "no-param-reassign": "off",
+        "jsx-a11y/no-noninteractive-element-interactions": "warn",
+        "jsx-a11y/click-events-have-key-events": "warn",
+        "spaced-comment": "off",
+        "@typescript-eslint/no-unused-vars": "warn",
+        "react/default-props-match-prop-types": "off",
+        "react/button-has-type": "warn",
+        "react/jsx-no-useless-fragment": "warn"
+    }
+}

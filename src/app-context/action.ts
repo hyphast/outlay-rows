@@ -1,0 +1,10 @@
+export const CHANGE_ROW_NAME = 'row/changeRowName'
+export const CHANGE_SALARY = 'row/changeSalary'
+export const CHANGE_EQUIP_COSTS = 'row/changeEquipmentCosts'
+export const CHANGE_OVERHEADS = 'row/changeOverheads'
+export const CHANGE_EST_PROFIT = 'row/changeEstimatedProfit'
+
+export const SET_OUTLAY_ROWS = 'row/setRowsTree'
+export const DELETE_OUTLAY_ROW = 'row/deleteOutlayRow'
+export const CREATE_OUTLAY_ROW = 'row/createOutlayRow'
+export const UPDATE_OUTLAY_ROW = 'row/updateOutlayRow'

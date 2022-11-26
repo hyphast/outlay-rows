@@ -1,0 +1,61 @@
+@import '../../_variables.sass'
+
+.root
+  display: flex
+  justify-content: end
+
+  .firstLayout
+    grid-template-columns: min-content 27px 27px 27px
+
+  .secondLayout
+    grid-template-columns: auto auto 27px 27px
+
+  .back
+    border-radius: 6px
+    padding: 6px 6px 4px 0
+    height: 30px
+    position: relative
+
+    .actions
+      display: grid
+
+      .folder1
+        position: relative
+        grid-column: 1
+
+      .folder2
+        position: relative
+        grid-column: 2
+
+      .file
+        position: relative
+        grid-column: 3
+        cursor: auto
+
+        img
+          width: 20px
+          height: 16px
+
+      .trash
+        grid-column: 4
+
+        img
+          width: 20px
+          height: 16px
+
+      .hideAction
+        display: none
+
+      button
+        margin-left: 6px
+
+    button
+        &:last-child
+          margin-left: 7px
+
+.background
+  background: $second-grey
+
+img
+  position: relative
+  z-index: 10

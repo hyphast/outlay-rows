@@ -1,0 +1,40 @@
+@import '../../variables'
+
+.root
+  width: 235px
+
+  .newProject
+    display: flex
+    padding: 7px 20px
+    border-bottom: 1px solid $second-grey
+    border-right: 1px solid $second-grey
+
+    .projectName
+      font-size: 14px
+      line-height: 16px
+
+    .acronym
+      font-size: 10px
+      line-height: 12px
+
+    .collapseIcon
+      margin-left: 60px
+      cursor: pointer
+
+  .projectList
+    margin-top: 8px
+    font-size: 14px
+    line-height: 16px
+    color: $white
+
+    li
+      display: flex
+      align-items: center
+      padding: 7px 20px
+      cursor: pointer
+
+      img
+        margin-right: 17px
+
+    .active
+      background: $grey
