@@ -25,7 +25,7 @@ export function RowActions({ rowData, editMode }: RowActionsProps) {
       }
       deleteOutlayRow(rowData.id)
     } catch (e) {
-      alert(e)
+      console.log(e)
     }
   }
 

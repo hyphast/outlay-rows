@@ -44,7 +44,7 @@ export function ProjectTable() {
           createOutlayRow(null)
         }
       } catch (e) {
-        alert(e)
+        console.log(e)
       }
     })()
   }, [])

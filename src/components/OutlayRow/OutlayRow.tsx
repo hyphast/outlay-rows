@@ -38,7 +38,7 @@ export function OutlayRow({ rowData }: OutlayRowProps) {
           data.changed.forEach((i) => updateOutlayRow(i.id, i))
         }
       } catch (err) {
-        alert(err)
+        console.log(e)
       } finally {
         setEditMode(false)
       }
